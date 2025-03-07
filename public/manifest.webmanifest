@@ -1,0 +1,20 @@
+{
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "192x192",
+      "src": "./public/d20.svg",
+      "type": "image/svg+xml"
+    },
+    {
+      "sizes": "512x512",
+      "src": "./public/d20.svg",
+      "type": "image/svg+xml"
+    }
+  ],
+  "name": "Echoes of Voys",
+  "short_name": "Echoes of Voys",
+  "start_url": "/",
+  "theme_color": "#000000"
+}

@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 400 600 700;
+  src: url('/fonts/inter-variable.woff2') format('woff2');
+}
+
+.grid-container-large {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    'nav header'
+    'nav main';
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
