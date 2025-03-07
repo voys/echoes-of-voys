@@ -4,6 +4,10 @@ Echoes of Voys is a Dungeons & Dragons 5e tool that helps Dungeon Masters genera
 
 Built with Vite + React + Tailwind CSS, this tool can provide a fast, modern, and user-friendly interface for Dungeon Masters.
 
+# The assignment
+
+See the [TODO.md](./TODO.md)
+
 # 📦 Installation & Setup
 
 ## Step 1: Clone the Repository
